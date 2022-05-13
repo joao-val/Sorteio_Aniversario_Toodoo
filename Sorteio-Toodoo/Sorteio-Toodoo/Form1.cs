@@ -84,6 +84,7 @@ namespace Sorteio_Toodoo
             listBoxWinners.Show();
             textWinners.Show();
             repeated.Hide();
+            congratulations.Hide();
 
             foreach (var winner in SaveWinners.WinnersList)
             {
@@ -95,31 +96,7 @@ namespace Sorteio_Toodoo
         {
         }
 
-        private void repeated_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void countdown_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void homePage_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void listBoxWinners_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void winnersGif_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void congratulations_Click(object sender, EventArgs e)
         {
 
         }
@@ -156,5 +133,29 @@ namespace Sorteio_Toodoo
             }
         }
 
+        private void winnersGif_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void congratulations_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void repeated_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void homePage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void countdown_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

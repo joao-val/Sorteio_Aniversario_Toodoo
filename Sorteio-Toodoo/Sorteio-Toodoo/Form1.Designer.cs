@@ -37,27 +37,27 @@
             this.btnHome = new System.Windows.Forms.Button();
             this.List_Button = new System.Windows.Forms.Button();
             this.Raffle_Button = new System.Windows.Forms.Button();
-            this.repeated = new System.Windows.Forms.PictureBox();
-            this.countdown = new System.Windows.Forms.PictureBox();
-            this.homePage = new System.Windows.Forms.PictureBox();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.listBoxWinners = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textWinners = new System.Windows.Forms.Label();
-            this.winnersGif = new System.Windows.Forms.PictureBox();
             this.process1 = new System.Diagnostics.Process();
+            this.winnersGif = new System.Windows.Forms.PictureBox();
             this.congratulations = new System.Windows.Forms.PictureBox();
+            this.homePage = new System.Windows.Forms.PictureBox();
+            this.repeated = new System.Windows.Forms.PictureBox();
+            this.countdown = new System.Windows.Forms.PictureBox();
             this.topPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Toodoo_Jpg)).BeginInit();
             this.toolboxPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.repeated)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.countdown)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homePage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.winnersGif)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.congratulations)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homePage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repeated)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.countdown)).BeginInit();
             this.SuspendLayout();
             // 
             // topPanel
@@ -68,7 +68,7 @@
             this.topPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.topPanel.Location = new System.Drawing.Point(0, 0);
             this.topPanel.Name = "topPanel";
-            this.topPanel.Size = new System.Drawing.Size(765, 82);
+            this.topPanel.Size = new System.Drawing.Size(743, 76);
             this.topPanel.TabIndex = 0;
             // 
             // label1
@@ -98,9 +98,9 @@
             this.toolboxPanel.Controls.Add(this.btnHome);
             this.toolboxPanel.Controls.Add(this.List_Button);
             this.toolboxPanel.Dock = System.Windows.Forms.DockStyle.Left;
-            this.toolboxPanel.Location = new System.Drawing.Point(0, 82);
+            this.toolboxPanel.Location = new System.Drawing.Point(0, 76);
             this.toolboxPanel.Name = "toolboxPanel";
-            this.toolboxPanel.Size = new System.Drawing.Size(77, 469);
+            this.toolboxPanel.Size = new System.Drawing.Size(77, 475);
             this.toolboxPanel.TabIndex = 0;
             // 
             // btnHome
@@ -108,7 +108,7 @@
             this.btnHome.BackColor = System.Drawing.Color.Black;
             this.btnHome.Font = new System.Drawing.Font("Algerian", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHome.ForeColor = System.Drawing.Color.Orange;
-            this.btnHome.Location = new System.Drawing.Point(0, 125);
+            this.btnHome.Location = new System.Drawing.Point(0, 14);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(77, 44);
             this.btnHome.TabIndex = 1;
@@ -121,7 +121,7 @@
             this.List_Button.BackColor = System.Drawing.Color.Black;
             this.List_Button.Font = new System.Drawing.Font("Algerian", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.List_Button.ForeColor = System.Drawing.Color.Orange;
-            this.List_Button.Location = new System.Drawing.Point(0, 36);
+            this.List_Button.Location = new System.Drawing.Point(0, 103);
             this.List_Button.Name = "List_Button";
             this.List_Button.Size = new System.Drawing.Size(77, 44);
             this.List_Button.TabIndex = 0;
@@ -134,46 +134,13 @@
             this.Raffle_Button.BackColor = System.Drawing.Color.Black;
             this.Raffle_Button.Font = new System.Drawing.Font("Algerian", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Raffle_Button.ForeColor = System.Drawing.Color.Orange;
-            this.Raffle_Button.Location = new System.Drawing.Point(214, 95);
+            this.Raffle_Button.Location = new System.Drawing.Point(217, 96);
             this.Raffle_Button.Name = "Raffle_Button";
             this.Raffle_Button.Size = new System.Drawing.Size(396, 30);
             this.Raffle_Button.TabIndex = 0;
             this.Raffle_Button.Text = "Raffle";
             this.Raffle_Button.UseVisualStyleBackColor = false;
             this.Raffle_Button.Click += new System.EventHandler(this.Raffle_Button_Click);
-            // 
-            // repeated
-            // 
-            this.repeated.Image = ((System.Drawing.Image)(resources.GetObject("repeated.Image")));
-            this.repeated.Location = new System.Drawing.Point(220, 137);
-            this.repeated.Name = "repeated";
-            this.repeated.Size = new System.Drawing.Size(390, 255);
-            this.repeated.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.repeated.TabIndex = 6;
-            this.repeated.TabStop = false;
-            this.repeated.Click += new System.EventHandler(this.repeated_Click);
-            // 
-            // countdown
-            // 
-            this.countdown.Image = ((System.Drawing.Image)(resources.GetObject("countdown.Image")));
-            this.countdown.Location = new System.Drawing.Point(220, 137);
-            this.countdown.Name = "countdown";
-            this.countdown.Size = new System.Drawing.Size(390, 255);
-            this.countdown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.countdown.TabIndex = 7;
-            this.countdown.TabStop = false;
-            this.countdown.Click += new System.EventHandler(this.countdown_Click);
-            // 
-            // homePage
-            // 
-            this.homePage.Image = ((System.Drawing.Image)(resources.GetObject("homePage.Image")));
-            this.homePage.Location = new System.Drawing.Point(220, 137);
-            this.homePage.Name = "homePage";
-            this.homePage.Size = new System.Drawing.Size(388, 255);
-            this.homePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.homePage.TabIndex = 8;
-            this.homePage.TabStop = false;
-            this.homePage.Click += new System.EventHandler(this.homePage_Click);
             // 
             // timer1
             // 
@@ -187,16 +154,16 @@
             this.listBoxWinners.Font = new System.Drawing.Font("Snap ITC", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.listBoxWinners.FormattingEnabled = true;
             this.listBoxWinners.ItemHeight = 19;
-            this.listBoxWinners.Location = new System.Drawing.Point(222, 420);
+            this.listBoxWinners.Location = new System.Drawing.Point(225, 421);
             this.listBoxWinners.Name = "listBoxWinners";
-            this.listBoxWinners.Size = new System.Drawing.Size(390, 99);
+            this.listBoxWinners.Size = new System.Drawing.Size(380, 99);
             this.listBoxWinners.TabIndex = 10;
             this.listBoxWinners.SelectedIndexChanged += new System.EventHandler(this.listBoxWinners_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(83, 137);
+            this.pictureBox1.Location = new System.Drawing.Point(86, 138);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(133, 114);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -206,9 +173,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(620, 137);
+            this.pictureBox2.Location = new System.Drawing.Point(611, 138);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(133, 114);
+            this.pictureBox2.Size = new System.Drawing.Size(123, 114);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 11;
             this.pictureBox2.TabStop = false;
@@ -219,23 +186,12 @@
             this.textWinners.BackColor = System.Drawing.Color.Black;
             this.textWinners.Font = new System.Drawing.Font("Algerian", 11.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.textWinners.ForeColor = System.Drawing.Color.Coral;
-            this.textWinners.Location = new System.Drawing.Point(362, 101);
+            this.textWinners.Location = new System.Drawing.Point(365, 102);
             this.textWinners.Name = "textWinners";
             this.textWinners.Size = new System.Drawing.Size(108, 18);
             this.textWinners.TabIndex = 12;
             this.textWinners.Text = "The Winners";
             this.textWinners.Click += new System.EventHandler(this.textWinners_Click);
-            // 
-            // winnersGif
-            // 
-            this.winnersGif.Image = ((System.Drawing.Image)(resources.GetObject("winnersGif.Image")));
-            this.winnersGif.Location = new System.Drawing.Point(218, 137);
-            this.winnersGif.Name = "winnersGif";
-            this.winnersGif.Size = new System.Drawing.Size(394, 255);
-            this.winnersGif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.winnersGif.TabIndex = 14;
-            this.winnersGif.TabStop = false;
-            this.winnersGif.Click += new System.EventHandler(this.winnersGif_Click);
             // 
             // process1
             // 
@@ -248,24 +204,70 @@
             this.process1.StartInfo.UserName = "";
             this.process1.SynchronizingObject = this;
             // 
+            // winnersGif
+            // 
+            this.winnersGif.Image = ((System.Drawing.Image)(resources.GetObject("winnersGif.Image")));
+            this.winnersGif.Location = new System.Drawing.Point(225, 138);
+            this.winnersGif.Name = "winnersGif";
+            this.winnersGif.Size = new System.Drawing.Size(380, 264);
+            this.winnersGif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.winnersGif.TabIndex = 13;
+            this.winnersGif.TabStop = false;
+            this.winnersGif.Click += new System.EventHandler(this.winnersGif_Click);
+            // 
             // congratulations
             // 
             this.congratulations.Image = ((System.Drawing.Image)(resources.GetObject("congratulations.Image")));
-            this.congratulations.Location = new System.Drawing.Point(218, 137);
+            this.congratulations.Location = new System.Drawing.Point(225, 138);
             this.congratulations.Name = "congratulations";
-            this.congratulations.Size = new System.Drawing.Size(394, 255);
+            this.congratulations.Size = new System.Drawing.Size(380, 264);
             this.congratulations.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.congratulations.TabIndex = 15;
+            this.congratulations.TabIndex = 14;
             this.congratulations.TabStop = false;
             this.congratulations.Click += new System.EventHandler(this.congratulations_Click);
+            // 
+            // homePage
+            // 
+            this.homePage.Image = ((System.Drawing.Image)(resources.GetObject("homePage.Image")));
+            this.homePage.Location = new System.Drawing.Point(225, 138);
+            this.homePage.Name = "homePage";
+            this.homePage.Size = new System.Drawing.Size(380, 277);
+            this.homePage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.homePage.TabIndex = 16;
+            this.homePage.TabStop = false;
+            this.homePage.Click += new System.EventHandler(this.homePage_Click);
+            // 
+            // repeated
+            // 
+            this.repeated.Image = ((System.Drawing.Image)(resources.GetObject("repeated.Image")));
+            this.repeated.Location = new System.Drawing.Point(225, 138);
+            this.repeated.Name = "repeated";
+            this.repeated.Size = new System.Drawing.Size(380, 277);
+            this.repeated.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.repeated.TabIndex = 17;
+            this.repeated.TabStop = false;
+            this.repeated.Click += new System.EventHandler(this.repeated_Click);
+            // 
+            // countdown
+            // 
+            this.countdown.Image = ((System.Drawing.Image)(resources.GetObject("countdown.Image")));
+            this.countdown.Location = new System.Drawing.Point(225, 138);
+            this.countdown.Name = "countdown";
+            this.countdown.Size = new System.Drawing.Size(380, 277);
+            this.countdown.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.countdown.TabIndex = 18;
+            this.countdown.TabStop = false;
+            this.countdown.Click += new System.EventHandler(this.countdown_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(765, 551);
+            this.ClientSize = new System.Drawing.Size(743, 551);
+            this.Controls.Add(this.homePage);
             this.Controls.Add(this.congratulations);
+            this.Controls.Add(this.winnersGif);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.listBoxWinners);
@@ -273,10 +275,8 @@
             this.Controls.Add(this.toolboxPanel);
             this.Controls.Add(this.topPanel);
             this.Controls.Add(this.textWinners);
-            this.Controls.Add(this.homePage);
-            this.Controls.Add(this.countdown);
             this.Controls.Add(this.repeated);
-            this.Controls.Add(this.winnersGif);
+            this.Controls.Add(this.countdown);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -284,13 +284,13 @@
             this.topPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Toodoo_Jpg)).EndInit();
             this.toolboxPanel.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.repeated)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.countdown)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.homePage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.winnersGif)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.congratulations)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.homePage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repeated)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.countdown)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -304,17 +304,17 @@
         private System.Windows.Forms.Panel toolboxPanel;
         private System.Windows.Forms.Button List_Button;
         private System.Windows.Forms.Button Raffle_Button;
-        private System.Windows.Forms.PictureBox repeated;
-        private System.Windows.Forms.PictureBox countdown;
-        private System.Windows.Forms.PictureBox homePage;
         protected System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ListBox listBoxWinners;
         private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label textWinners;
-        private System.Windows.Forms.PictureBox winnersGif;
         private System.Diagnostics.Process process1;
+        private System.Windows.Forms.PictureBox winnersGif;
         private System.Windows.Forms.PictureBox congratulations;
+        private System.Windows.Forms.PictureBox homePage;
+        private System.Windows.Forms.PictureBox repeated;
+        private System.Windows.Forms.PictureBox countdown;
     }
 }
